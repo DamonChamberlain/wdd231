@@ -1,0 +1,154 @@
+:root {
+    --primary-color: #003049;
+    --secondary-color: #d62828;
+    --accent-color: #f77f00;
+    --bg-color: #fdf0d5;
+    --text-color: #333;
+    --white: #ffffff;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+header {
+    background-color: var(--primary-color);
+    color: var(--white);
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.profile-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#menu {
+    font-size: 1.5rem;
+    border: 0;
+    background: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+#menu::before {
+    content: "☰";
+}
+
+#menu.open::before {
+    content: "✖";
+}
+
+nav {
+    display: none;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background-color: var(--primary-color);
+    text-align: center;
+    z-index: 1000;
+}
+
+nav.open {
+    display: block;
+}
+
+.navigation {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation li a {
+    display: block;
+    padding: 1rem;
+    color: var(--white);
+    text-decoration: none;
+    border-top: 1px solid rgba(255,255,255,0.1);
+}
+
+.navigation li a:hover {
+    background-color: var(--secondary-color);
+}
+
+main {
+    padding: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    border-bottom: 2px solid var(--primary-color);
+}
+
+.card {
+    background: var(--white);
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.course-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.course-card {
+    background-color: var(--white);
+    border: 1px solid #ccc;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.course-card.completed {
+    background-color: #e6ffe6;
+    border-left: 5px solid #2a9d8f;
+}
+
+.filter-buttons {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.filter-btn {
+    padding: 0.5rem 1rem;
+    margin: 0 5px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.filter-btn:hover, .active-filter {
+    background-color: var(--secondary-color);
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: var(--white);
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}

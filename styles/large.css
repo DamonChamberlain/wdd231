@@ -1,0 +1,33 @@
+@media screen and (min-width: 768px) {
+    #menu {
+        display: none;
+    }
+
+    nav {
+        display: block;
+        position: static;
+        width: auto;
+        background: none;
+    }
+
+    .navigation {
+        display: flex;
+        gap: 20px;
+    }
+
+    .navigation li a {
+        border: none;
+        padding: 0.5rem 1rem;
+    }
+
+    .navigation li a:hover {
+        background-color: rgba(255,255,255,0.2);
+        border-radius: 4px;
+    }
+    
+    .main-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+}
