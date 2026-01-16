@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 231 - Web Frontend Development I - Damon Chamberlain</title>
+    <meta name="description" content="WDD 231 Course Home Page for Damon Chamberlain. This page serves as a portal for course assignments.">
+    <meta name="author" content="Damon Chamberlain">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <script src="scripts/main.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img src="images/profile.jpg" alt="Damon Chamberlain Profile" class="profile-img">
+            <span>Damon Chamberlain</span>
+        </div>
+        <button id="menu" aria-label="Menu"></button>
+        <nav>
+            <ul class="navigation">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="project/siteplan.html">Chamber</a></li>
+                <li><a href="https://github.com/DamonChamberlain/wdd231">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/damon-chamberlain-a22b7a357/">LinkedIn</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Course Home</h1>
+
+        <div class="main-grid">
+            <section class="card">
+                <h2>About the Course</h2>
+                <p>WDD 231: Web Frontend Development I focuses on user experience, accessibility, compliance, performance optimization, and basic API usage. This page serves as the landing portal for all assignments.</p>
+            </section>
+
+            <section class="card">
+                <h2>Web Development Resources</h2>
+                <ul>
+                    <li><a href="https://developer.mozilla.org/en-US/">MDN Web Docs</a></li>
+                    <li><a href="https://web.dev/">Web.dev</a></li>
+                    <li><a href="https://www.w3.org/">W3C</a></li>
+                </ul>
+            </section>
+        </div>
+
+        <section class="certificate-section">
+            <h2>Web and Computer Programming Certificate</h2>
+            
+            <div class="filter-buttons">
+                <button id="all" class="filter-btn active-filter">All</button>
+                <button id="cse" class="filter-btn">CSE</button>
+                <button id="wdd" class="filter-btn">WDD</button>
+            </div>
+
+            <div id="course-list" class="course-grid"></div>
+            
+            <div class="credits-display">
+                <h3>Total Credits Required: <span id="total-credits">0</span></h3>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> | Damon Chamberlain | Washington, USA</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
