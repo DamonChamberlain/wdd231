@@ -1,7 +1,5 @@
-/* normal.css - Basic Reset */
+/* normal.css - Cleaned Reset */
 html {
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
     box-sizing: border-box;
 }
 
@@ -9,10 +7,9 @@ html {
     box-sizing: inherit;
 }
 
+/* Only handle layout-breaking resets here */
 body {
     margin: 0;
-    font-family: sans-serif;
-    line-height: 1.5;
 }
 
 img {
@@ -29,7 +26,6 @@ ul {
 
 a {
     text-decoration: none;
-    color: inherit;
 }
 
 button {

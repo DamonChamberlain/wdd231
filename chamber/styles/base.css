@@ -1,21 +1,24 @@
+/* base.css */
 :root {
-    --primary: #003049;
-    --secondary: #d62828;
-    --accent: #f77f00;
-    --bg: #fdf0d5;
+    --primary-color: #003049;
+    --secondary-color: #d62828;
+    --accent-color: #f77f00;
+    --bg-color: #fdf0d5;
     --card-bg: #ffffff;
-    --text: #333;
+    --text-color: #333333; /* Standardized to hex */
+    --white: #ffffff;      /* Standardized to hex */
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-    background-color: var(--bg);
-    color: var(--text);
+    font-family: 'Roboto', sans-serif; /* Only defined once now */
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    line-height: 1.5; /* Moved from normal.css to here */
 }
 
 header {
-    background-color: var(--primary);
-    color: white;
+    background-color: var(--primary-color);
+    color: var(--white);
 }
 
 .header-content {
@@ -25,32 +28,69 @@ header {
     justify-content: space-between;
 }
 
-.logo { width: 50px; }
+.logo { 
+    width: 50px; 
+}
 
-#menu-toggle::before { content: "☰"; font-size: 2rem; }
-#menu-toggle.active::before { content: "✕"; }
+#menu-toggle {
+    background: none;
+    border: none;
+    color: var(--white);
+}
 
-nav { display: none; background-color: #002538; }
-nav.open { display: block; }
-nav a { display: block; padding: 1rem; color: white; text-align: center; }
-nav a.active { background-color: var(--secondary); }
+#menu-toggle::before { 
+    content: "☰"; 
+    font-size: 2rem; 
+}
 
-main { padding: 1rem; max-width: 1200px; margin: 0 auto; }
-.directory-header { text-align: center; margin-bottom: 2rem; }
+#menu-toggle.active::before { 
+    content: "✕"; 
+}
+
+nav { 
+    display: none; 
+    background-color: #002538; 
+}
+
+nav.open { 
+    display: block; 
+}
+
+nav a { 
+    display: block; 
+    padding: 1rem; 
+    color: var(--white); 
+    text-align: center; 
+}
+
+nav a.active { 
+    background-color: var(--secondary-color); 
+}
+
+main { 
+    padding: 1rem; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
+
+.directory-header { 
+    text-align: center; 
+    margin-bottom: 2rem; 
+}
 
 .view-controls button {
     padding: 0.5rem 1rem;
-    background: white;
-    border: 1px solid var(--primary);
+    background: var(--white);
+    border: 1px solid var(--primary-color);
     margin: 0.2rem;
 }
 
 .view-controls .active-btn {
-    background: var(--primary);
-    color: white;
+    background: var(--primary-color);
+    color: var(--white);
 }
 
-/* Grid Mode Styles */
+/* Grid Mode */
 .grid-mode {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -61,7 +101,7 @@ main { padding: 1rem; max-width: 1200px; margin: 0 auto; }
     background: var(--card-bg);
     padding: 1.5rem;
     text-align: center;
-    border: 1px solid #ddd;
+    border: 1px solid #dddddd;
     border-radius: 8px;
 }
 
@@ -70,7 +110,7 @@ main { padding: 1rem; max-width: 1200px; margin: 0 auto; }
     margin: 0 auto 1rem;
 }
 
-/* List Mode Styles */
+/* List Mode */
 .list-mode {
     display: flex;
     flex-direction: column;
@@ -84,14 +124,26 @@ main { padding: 1rem; max-width: 1200px; margin: 0 auto; }
     padding: 0.8rem;
 }
 
-.list-mode .member-card img, .list-mode .membership { display: none; }
+.list-mode .member-card img, 
+.list-mode .membership { 
+    display: none; 
+}
 
 footer {
-    background: var(--primary);
-    color: white;
+    background: var(--primary-color);
+    color: var(--white);
     padding: 2rem 1rem;
     text-align: center;
 }
 
-.social-icons img { width: 30px; margin: 0.5rem; filter: invert(1); }
-.footer-bottom { border-top: 1px solid rgba(255,255,255,0.2); margin-top: 1rem; padding-top: 1rem; }
+.social-icons img { 
+    width: 30px; 
+    margin: 0.5rem; 
+    filter: invert(100%); /* Keeps icons white */
+}
+
+.footer-bottom { 
+    border-top: 1px solid rgba(255, 255, 255, 0.2); 
+    margin-top: 1rem; 
+    padding-top: 1rem; 
+}
