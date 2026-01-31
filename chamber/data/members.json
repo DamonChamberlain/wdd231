@@ -1,57 +1,57 @@
 [
     {
-        "name": "Timbuktu Tech Logistics",
-        "address": "45 Caravanserai Ave",
-        "phone": "(223) 555-0100",
-        "website": "https://TTL.com",
+        "name": "Lost Creek Tech Logistics",
+        "address": "45 Evergreen Ave",
+        "phone": "(406) 555-0100",
+        "website": "https://LCTL.com",
         "image": "images/member1.png",
         "membershipLevel": 3
     },
     {
-        "name": "Sahara Solar Systems",
+        "name": "Valley Solar Systems",
         "address": "12 Sunbeam Way",
-        "phone": "(223) 555-0200",
-        "website": "https://3S.com",
+        "phone": "(406) 555-0200",
+        "website": "https://VSS.com",
         "image": "images/member2.png",
         "membershipLevel": 2
     },
     {
-        "name": "Artisan Textile Guild",
+        "name": "Mountain Textile Guild",
         "address": "88 Market Row",
-        "phone": "(223) 555-0300",
-        "website": "https://ATG.com",
+        "phone": "(406) 555-0300",
+        "website": "https://MTG.com",
         "image": "images/member3.png",
         "membershipLevel": 1
     },
     {
-        "name": "Dune Digital Marketing",
-        "address": "55 Mirage Plaza",
-        "phone": "(223) 555-0400",
-        "website": "https://DDM.com",
+        "name": "Pine Ridge Digital Marketing",
+        "address": "55 Alpine Plaza",
+        "phone": "(406) 555-0400",
+        "website": "https://PRDM.com",
         "image": "images/member4.png",
         "membershipLevel": 2
     },
     {
-        "name": "Oasis Refreshments",
-        "address": "1 Wellspring Ln",
-        "phone": "(223) 555-0500",
-        "website": "https://OROnline.com",
+        "name": "Creek Side Refreshments",
+        "address": "1 River Ln",
+        "phone": "(406) 555-0500",
+        "website": "https://CSR.com",
         "image": "images/member5.png",
         "membershipLevel": 3
     },
     {
-        "name": "Sands of Time Antiques",
+        "name": "Trails of Time Antiques",
         "address": "22 Heritage Circle",
-        "phone": "(223) 555-0600",
-        "website": "https://SandsofTime.com",
+        "phone": "(406) 555-0600",
+        "website": "https://TrailsofTime.com",
         "image": "images/member6.png",
         "membershipLevel": 1
     },
     {
-        "name": "Timbuktu University Bookstore",
+        "name": "Lost Creek University Bookstore",
         "address": "100 Scholars Way",
-        "phone": "(223) 555-0700",
-        "website": "https://TUB.com",
+        "phone": "(406) 555-0700",
+        "website": "https://LCUB.com",
         "image": "images/member7.png",
         "membershipLevel": 2
     }
