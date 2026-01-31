@@ -4,6 +4,30 @@
     nav { display: block; }
     nav ul { display: flex; justify-content: center; }
     
+    .hero-img {
+        height: 500px;
+    }
+
+    .home-grid {
+        grid-template-columns: 2fr 1fr 1fr;
+    }
+    
+    .events-section {
+        grid-column: 1 / 2;
+    }
+
+    .weather-section {
+        grid-column: 2 / 3;
+    }
+
+    .forecast-section {
+        grid-column: 3 / 4;
+    }
+
+    .spotlight-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
     .list-mode .member-card {
         grid-template-columns: 2fr 2fr 1.5fr 1fr;
         align-items: center;
