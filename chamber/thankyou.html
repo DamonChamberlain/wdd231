@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You | Lost Creek Chamber of Commerce</title>
+    <meta name="description" content="Thank you for joining the Lost Creek Chamber of Commerce.">
+    <meta name="author" content="Your Name">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normal.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <script src="scripts/thankyou.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="images/logo.jpg" alt="Lost Creek Chamber Logo" class="logo">
+            <div class="header-titles">
+                <h1>Lost Creek Chamber</h1>
+                <p>Empowering Local Commerce</p>
+            </div>
+            <button id="menu-toggle" aria-label="Toggle Navigation Menu"></button>
+        </div>
+        <nav>
+            <ul id="nav-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="#">Discover</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="thankyou-page">
+        <div class="thankyou-container">
+            <h2>Thank You for Applying, <span id="display-fname"></span>!</h2>
+            <p>We have received your application. A member of our team will review it and contact you shortly.</p>
+            
+            <div class="application-summary">
+                <h3>Application Details</h3>
+                <div id="results"></div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-top">
+            <div class="footer-contact">
+                <h3>Lost Creek Chamber of Commerce</h3>
+                <p>123 Mountain Pine Way</p>
+                <p>Lost Creek, Montana 59000</p>
+                <p>info@lostcreekcc.org | (406) 555-1234</p>
+            </div>
+            <div class="social-icons">
+                <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="images/twitter.png" alt="Twitter"></a>
+                <a href="#"><img src="images/linkedin.png" alt="LinkedIn"></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; <span id="year"></span> | Your Name | WDD 231</p>
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+</body>
+</html>
