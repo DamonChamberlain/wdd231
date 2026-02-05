@@ -8,6 +8,7 @@
     --white: #ffffff;
 }
 
+
 body {
     font-family: 'Roboto', sans-serif;
     background-color: var(--bg-color);
@@ -114,12 +115,6 @@ main {
     background-color: #a31616;
 }
 
-/* Membership Cards & Animation */
-.card-grid {
-    display: grid;
-    gap: 1.5rem;
-    grid-template-columns: 1fr;
-}
 
 .membership-card {
     background: var(--card-bg);
@@ -157,7 +152,7 @@ main {
     margin-top: 1rem;
 }
 
-/* Dialog/Modal Styles */
+
 dialog {
     border: none;
     border-radius: 8px;
@@ -178,23 +173,6 @@ dialog::backdrop {
     border: none;
     padding: 0.5rem 1rem;
     border-radius: 4px;
-}
-
-/* Thank You Styles */
-.thankyou-container {
-    background: var(--card-bg);
-    padding: 2.5rem;
-    border-radius: 8px;
-    text-align: center;
-}
-
-.application-summary {
-    text-align: left;
-    background: #f9f9f9;
-    padding: 1.5rem;
-    border-radius: 8px;
-    margin-top: 2rem;
-    border: 1px solid #eee;
 }
 
 footer {
