@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Echo Ridge Hiking Trail",
+        "address": "1450 Alpine Loop, Lost Creek, MT",
+        "description": "A scenic 5-mile loop offering breathtaking views of the Lost Creek valley and seasonal wildflowers.",
+        "image": "images/place1.webp"
+    },
+    {
+        "name": "Miner's History Museum",
+        "address": "200 Main St, Lost Creek, MT",
+        "description": "Explore the rich mining heritage of the region with preserved artifacts and interactive exhibits.",
+        "image": "images/place2.webp"
+    },
+    {
+        "name": "Lost Creek Lake",
+        "address": "Mile Marker 32, Hwy 12, Lost Creek, MT",
+        "description": "Perfect for fishing, kayaking, and family picnics. Boat rentals available seasonally.",
+        "image": "images/place3.webp"
+    },
+    {
+        "name": "The Iron Horse Gallery",
+        "address": "88 Market Row, Lost Creek, MT",
+        "description": "Featuring contemporary art and sculptures from local Montana artists.",
+        "image": "images/place4.webp"
+    },
+    {
+        "name": "Pineview Community Park",
+        "address": "500 Pineview Dr, Lost Creek, MT",
+        "description": "Includes a large playground, skate park, and covered pavilions for community events.",
+        "image": "images/place5.webp"
+    },
+    {
+        "name": "Old Town Theater",
+        "address": "12 Cinema Ln, Lost Creek, MT",
+        "description": "A restored 1920s cinema showing classic films and hosting live performances.",
+        "image": "images/place6.webp"
+    },
+    {
+        "name": "Grizzly Peak Overlook",
+        "address": "Summit Rd, Lost Creek, MT",
+        "description": "The highest point in the county, accessible by car, offering panoramic sunset views.",
+        "image": "images/place7.webp"
+    },
+    {
+        "name": "Lost Creek Farmers Market",
+        "address": "Town Square, Lost Creek, MT",
+        "description": "Open Saturdays, featuring fresh local produce, handmade crafts, and live music.",
+        "image": "images/place8.webp"
+    }
+]
