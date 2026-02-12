@@ -8,7 +8,6 @@
     --white: #ffffff;
 }
 
-
 body {
     font-family: 'Roboto', sans-serif;
     background-color: var(--bg-color);
@@ -75,105 +74,46 @@ main {
     margin: 0 auto; 
 }
 
-/* --- Join Page Styles --- */
-.join-container {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-}
-
-.join-form label {
-    display: block;
-    margin-bottom: 1rem;
-    font-weight: bold;
+.visitor-alert {
+    background-color: var(--accent-color);
     color: var(--primary-color);
+    padding: 1rem;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 1rem;
 }
 
-.join-form input,
-.join-form select,
-.join-form textarea {
-    display: block;
-    width: 100%;
-    padding: 0.8rem;
-    margin-top: 0.3rem;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 1rem;
+.discover-grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "card1" "card2" "card3" "card4"
+        "card5" "card6" "card7" "card8";
 }
 
-.submit-btn {
-    background-color: var(--secondary-color);
-    color: var(--white);
-    border: none;
-    cursor: pointer;
-    font-size: 1.2rem;
-    margin-top: 1rem;
-    transition: background 0.3s ease;
-}
-
-.submit-btn:hover {
-    background-color: #a31616;
-}
-
-
-.membership-card {
+.discover-card {
     background: var(--card-bg);
     border: 1px solid #ddd;
     border-radius: 8px;
-    padding: 1.5rem;
+    padding: 1rem;
     text-align: center;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    opacity: 0; 
-    animation: fadeInUp 0.8s ease-out forwards;
 }
 
-@keyframes fadeInUp {
-    from {
-        opacity: 0;
-        transform: translateY(20px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-#card-np { animation-delay: 0.1s; }
-#card-bronze { animation-delay: 0.2s; }
-#card-silver { animation-delay: 0.3s; }
-#card-gold { animation-delay: 0.4s; }
-
-.modal-trigger {
-    background-color: var(--primary-color);
-    color: var(--white);
-    border: none;
-    padding: 0.6rem 1.2rem;
-    border-radius: 4px;
-    margin-top: 1rem;
-}
-
-
-dialog {
-    border: none;
-    border-radius: 8px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
-    padding: 2rem;
-    max-width: 500px;
-    width: 90%;
-}
-
-dialog::backdrop {
-    background: rgba(0, 0, 0, 0.6);
-}
-
-.close-modal {
-    margin-top: 1.5rem;
-    background: #333;
-    color: #fff;
-    border: none;
-    padding: 0.5rem 1rem;
+.discover-card img {
+    width: 100%;
+    height: auto;
     border-radius: 4px;
 }
+
+.area-1 { grid-area: card1; }
+.area-2 { grid-area: card2; }
+.area-3 { grid-area: card3; }
+.area-4 { grid-area: card4; }
+.area-5 { grid-area: card5; }
+.area-6 { grid-area: card6; }
+.area-7 { grid-area: card7; }
+.area-8 { grid-area: card8; }
 
 footer {
     background: var(--primary-color);
