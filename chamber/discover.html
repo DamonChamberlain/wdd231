@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover Lost Creek | Lost Creek Chamber of Commerce</title>
+    <meta name="description" content="Explore local attractions and items of interest in Lost Creek.">
+    <meta name="author" content="Your Name">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normal.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <script src="scripts/discover.js" defer></script>
+    <script src="scripts/index.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="images/logo.jpg" alt="Lost Creek Chamber Logo" class="logo">
+            <div class="header-titles">
+                <h1>Lost Creek Chamber</h1>
+                <p>Empowering Local Commerce</p>
+            </div>
+            <button id="menu-toggle" aria-label="Toggle Navigation Menu"></button>
+        </div>
+        <nav>
+            <ul id="nav-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="discover.html" class="active">Discover</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="visitor-message" class="visitor-alert"></div>
+        <div class="discover-header">
+            <h2>Discover Lost Creek</h2>
+        </div>
+        <div id="discover-grid" class="discover-grid"></div>
+    </main>
+    <footer>
+        <div class="footer-top">
+            <div class="footer-contact">
+                <h3>Lost Creek Chamber of Commerce</h3>
+                <p>123 Mountain Pine Way, Lost Creek, MT 59000</p>
+                <p>info@lostcreekcc.org | (406) 555-1234</p>
+            </div>
+            <div class="social-icons">
+                <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="images/twitter.png" alt="Twitter"></a>
+                <a href="#"><img src="images/linkedin.png" alt="LinkedIn"></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; <span id="year"></span> | Your Name | WDD 231</p>
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+</body>
+</html>
