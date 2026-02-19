@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>join | park scout</title>
+    <meta name="description" content="join our park community.">
+    <meta name="author" content="Damon Chamberlain">
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" href="favicon.ico">
+    <script src="scripts/main.js" defer></script>
+    <script src="scripts/join.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo">park scout</div>
+        <button id="menu-toggle">&#9776;</button>
+        <nav id="main-nav">
+            <a href="index.html">home</a>
+            <a href="explore.html">explore</a>
+            <a href="join.html" class="active">join</a>
+        </nav>
+    </header>
+    <main>
+        <h1>join the adventure</h1>
+        <p id="welcome-message"></p>
+        <form id="join-form" action="thankyou.html" method="get">
+            <label for="first-name">first name</label>
+            <input type="text" id="first-name" required>
+            <label for="email">email</label>
+            <input type="email" id="email" required>
+            <label for="frequency">visit frequency</label>
+            <select id="frequency">
+                <option value="rarely">rarely</option>
+                <option value="monthly">monthly</option>
+                <option value="weekly">weekly</option>
+            </select>
+            <button type="submit" class="view-details">submit</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2026 park scout | <a href="attributions.html">attributions</a></p>
+    </footer>
+</body>
+</html>

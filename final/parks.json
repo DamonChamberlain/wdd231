@@ -1,0 +1,17 @@
+[
+  {"name": "yellowstone", "state": "wyoming", "type": "national park", "image": "images/yellowstone.jpg", "description": "famous for its geysers like old faithful and diverse wildlife."},
+  {"name": "acadia", "state": "maine", "type": "national park", "image": "images/acadia.jpg", "description": "features rocky coastlines and the tallest mountain on the atlantic coast."},
+  {"name": "zion", "state": "utah", "type": "national park", "image": "images/zion.jpg", "description": "known for its massive red sandstone cliffs and the narrows hike."},
+  {"name": "yosemite", "state": "california", "type": "national park", "image": "images/yosemite.jpg", "description": "famous for its giant sequoias and iconic granite cliffs like el capitan."},
+  {"name": "grand canyon", "state": "arizona", "type": "national park", "image": "images/grand-canyon.jpg", "description": "one of the world's most spectacular natural wonders."},
+  {"name": "olympic", "state": "washington", "type": "national park", "image": "images/olympic.jpg", "description": "features temperate rainforests and rugged glacier-capped peaks."},
+  {"name": "glacier", "state": "montana", "type": "national park", "image": "images/glacier.jpg", "description": "known for its carved peaks and valleys that reach the canadian border."},
+  {"name": "everglades", "state": "florida", "type": "national park", "image": "images/everglades.jpg", "description": "the largest tropical wilderness in the united states."},
+  {"name": "arches", "state": "utah", "type": "national park", "image": "images/arches.jpg", "description": "home to over 2,000 natural sandstone arches."},
+  {"name": "denali", "state": "alaska", "type": "national park", "image": "images/denali.jpg", "description": "encompasses six million acres of wild land and north america's tallest peak."},
+  {"name": "bryce canyon", "state": "utah", "type": "national park", "image": "images/bryce-canyon.jpg", "description": "known for its unique amphitheater of red-rock hoodoos."},
+  {"name": "shenandoah", "state": "virginia", "type": "national park", "image": "images/shenandoah.jpg", "description": "located in the blue ridge mountains with cascading waterfalls."},
+  {"name": "devils tower", "state": "wyoming", "type": "national monument", "image": "images/devils-tower.jpg", "description": "an astounding geologic feature that protrudes from the prairie."},
+  {"name": "muir woods", "state": "california", "type": "national monument", "image": "images/muir-woods.jpg", "description": "preserves one of the last remaining ancient redwood forests."},
+  {"name": "statue of liberty", "state": "new york", "type": "national monument", "image": "images/statue-of-liberty.jpg", "description": "an iconic symbol of freedom and democracy."}
+]

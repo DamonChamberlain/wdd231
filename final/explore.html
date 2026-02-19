@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>explore | park scout</title>
+    <meta name="description" content="browse 15+ national parks.">
+    <meta name="author" content="Damon Chamberlain">
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" href="favicon.ico">
+    <script src="scripts/main.js" defer></script>
+    <script type="module">
+        import { loadParks } from './scripts/explore.js';
+        loadParks();
+    </script>
+</head>
+<body>
+    <header>
+        <div class="logo">park scout</div>
+        <button id="menu-toggle">&#9776;</button>
+        <nav id="main-nav">
+            <a href="index.html">home</a>
+            <a href="explore.html" class="active">explore</a>
+            <a href="join.html">join</a>
+        </nav>
+    </header>
+    <main>
+        <h1>discover parks</h1>
+        <div id="park-grid"></div>
+        <dialog id="park-modal">
+            <div class="modal-content"></div>
+        </dialog>
+    </main>
+    <footer>
+        <p>&copy; 2026 park scout | <a href="attributions.html">attributions</a></p>
+    </footer>
+</body>
+</html>
